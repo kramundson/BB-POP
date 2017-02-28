@@ -19,6 +19,9 @@ wget -r -nH -nc -np -R index.html* http://slims.bioinformatics.ucdavis.edu/Data/
 
 TODO:
 Allprep with quality trimming
+
 Mapping to reference. Based on coverage, may want to sequence one or both lines deeper.
+
 Send path for bams to Livingstone
+
 Call Desiree/IVP-48 SNPs

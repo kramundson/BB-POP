@@ -48,7 +48,7 @@ md5sum DBW_RESCAN/*.fq >> DBW_RESCAN/fq-md5.txt
 tar -cvzf DBW_RESCAN.tar.gz DBW_RESCAN/
 ```
 
-Quality Trimming:
+###Quality Trimming/Filtering
 
 ```
 mv IVP-48.fq IVP-48_preQC.fq
@@ -75,7 +75,9 @@ no Ns:
 Good Reads or Pairs:
 98438659
 
-Map quality-trimmed reads to potato DM1-3 reference v.4.04 (based on coverage, may want to sequence one or both lines deeper):
+###Map quality-trimmed reads to potato DM1-3 reference v.4.04
+
+(based on coverage, may want to sequence one or both lines deeper)
 
 ```
 bwa-doall-vModules-current.py -d ~/Potato_dosage/Data/genome/potato_dm_v404_all_pm_un.fasta -O -m ps -t 8 -M

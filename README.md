@@ -75,7 +75,7 @@ no Ns:
 Good Reads or Pairs:
 98438659
 
-Map quality-trimmed reads to reference (based on coverage, may want to sequence one or both lines deeper):
+Map quality-trimmed reads to potato DM1-3 reference v.4.04 (based on coverage, may want to sequence one or both lines deeper):
 
 ```
 bwa-doall-vModules-current.py -d ~/Potato_dosage/Data/genome/potato_dm_v404_all_pm_un.fasta -O -m ps -t 8 -M
